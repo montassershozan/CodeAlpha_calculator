@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    /* Home-section  */
+
+  .home-sec h1 {
+    font-size: 2rem !important;
+  }
+  .home-sec .contentOfSec {
+    width: 100% !important;
+    border-radius: 20% !important;
+  }
+  
+  .home-sec .contentOfSec input {
+    font-size: 1rem !important;
+    width: 80% !important;
+    border-radius: 20% !important;
+  }
+  .home-sec .contentOfSec .BtnsDiv {
+    width: 100% !important;
+    margin-top: 0.3rem !important;
+    padding: 0.8rem !important;
+  }
+  .home-sec .contentOfSec .BtnsDiv .btn {
+    margin: 0.5rem !important;
+    padding: 0.9rem !important;
+    font-size: 1.2rem !important;
+  }
+  }
+  

@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+:root {
+  --fontS: 3rem;
+  --main-color: rgb(221, 32, 127);
+  --margin--pad: 0.95rem;
+  --font-cal: 1.5rem;
+  --font-color: rgb(255, 105, 105);
+  --font-btn: 1rem;
+  --font-weg-dis : 800;
+  --font-weg-btn : 600;
+}
+
+body {
+  background-image: url(../imgs/red-planet-digital-art-milky-way-stars-colorful-5k-3840x2160-5941.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Home-section  */
+
+.home-sec {
+  text-align: center;
+}
+
+.home-sec h1 {
+  font-size: var(--fontS);
+  color: var(--main-color);
+}
+.home-sec .contentOfSec {
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 80px var(--main-color); ;
+  border-radius: 15%;
+}
+
+.home-sec .contentOfSec input {
+  text-align: center;
+  color: var(--font-color);
+  margin-top: var(--margin--pad);
+  padding: var(--margin--pad);
+  font-size: var(--font-cal);
+  font-weight: var(--font-weg-dis);
+  width: 95%;
+  border: 1px solid rgb(221, 32, 127);
+  border-radius: 25%;
+  box-shadow: 5px 5px 80px var(--main-color);
+  background-color: rgb(31, 16, 16);
+}
+.home-sec .contentOfSec .BtnsDiv {
+  width: 75%;
+  margin: auto;
+  margin-top: var(--margin--pad);
+  padding: var(--margin--pad);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-sec .contentOfSec .BtnsDiv .btn {
+  margin: 0.6rem;
+  padding: 1.2rem;
+  font-size: var(--font-btn);
+  font-weight: var(--font-weg-btn);
+  cursor: pointer;
+  color: red;
+  border-radius: 40%;
+  background-color: black;
+  transition: all 0.55s;
+  border: 0;
+}
+.home-sec .contentOfSec .BtnsDiv .btn:hover {
+  box-shadow: 5px 5px 3px var(--main-color);
+}
